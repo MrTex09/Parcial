@@ -22,21 +22,42 @@ nav a {
     padding: 14px 20px;
 }
 
-aside {
-    color: white;
-    flex: 30px;
-    background-color: #293035;
-    padding: 20px;
-}
-section {
-    color: white;
-    flex: 70%;
-    background-color: #293035;
-    padding: 20px;
-}
+
 footer {
     color: white;
     padding: 10px;
     background-color:  #3d474f;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.card{
+    width: 100%px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 210px;
+}
+.card .contenido{
+    padding: 15px;
     text-align: center;
 }
