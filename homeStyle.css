@@ -1,0 +1,32 @@
+.titulo{
+    margin: auto;
+}
+h1{
+    float:left;
+    color: #fff;
+    position: relative;
+}
+h1 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #202529;
+    border-left: 1px solid #000;
+    
+    animation: maquina 5s infinite  alternate steps(22);
+}
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
+.contenedor{
+
+padding: 50px;
+text-align: center;}
+
+
