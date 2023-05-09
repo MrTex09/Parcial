@@ -1,6 +1,14 @@
 .titulo{
     margin: auto;
 }
+.parafo {
+    background-color: #43535c;
+    color: wheat;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    border-color: #000;
+    border: solid  black;
+}
 h1{
     float:left;
     color: #fff;
@@ -10,7 +18,7 @@ h1 span{
     position: absolute;
     right: 0;
     width: 0;
-    background: #202529;
+    background: #323f46;
     border-left: 1px solid #000;
     
     animation: maquina 5s infinite  alternate steps(22);
@@ -28,5 +36,9 @@ h1 span{
 
 padding: 50px;
 text-align: center;}
-
-
+.header{
+    background-color: #000;
+}
+body{
+    background-color: #323f46;
+}
