@@ -10,6 +10,7 @@
     border-color: #555;
     border: solid  #00d5f4;
     margin-top: 10px;
+    margin: 50px;
 }
 h1{
     float:left;
@@ -34,10 +35,7 @@ h1 span{
         width: 0;
     }
 }
-.contenedor{
 
-padding: 50px;
-text-align: center;}
 .cabezera{
     color:white ;
     background-color: #202529;
@@ -52,13 +50,4 @@ body{
     text-decoration: none;
     padding: 10px;
     text-align: center;
-}
-.traajos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    margin: 10px;
-    background-color: blue;
-    color: #fff;
 }
