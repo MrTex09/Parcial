@@ -9,35 +9,8 @@ body{
     margin-bottom: 10px;
 }
 .container-fluid{
-margin: 40px;
+margin: 10px;
 
-}
-
-.contenedor-flex{
-    display: flex;
-    align-items: center;
-    width:30%;
-    height: 400px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 10px;
-}
-img {
-    height: 400px;
-    margin-bottom: 20px;
-}
-.trabajos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightseagreen;
-    border:solid lightseagreen;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    padding: 20px;
 }
 
 footer {
@@ -54,6 +27,7 @@ footer {
 p {
     text-align: center;
     border: #202529 solid 1px;
+    padding: auto;
 }
 @media screen and (min-height:400px) {
     main{
@@ -61,7 +35,7 @@ p {
 
     }
 }
-@media screen and (min-height:800px) {
+@media screen and (min-height:600px) {
     main{
         height: 80vh;
 
