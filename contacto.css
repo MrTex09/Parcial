@@ -43,15 +43,3 @@
     text-align: center;
     margin: auto;
 }
-
-@media screen and (min-height:300px) {
-    main{
-        height: 10vh;
-    }
-}
-@media screen and (min-height:800px) {
-    main{
-        height: 100vh;
-
-    }
-}
