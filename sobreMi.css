@@ -2,49 +2,33 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
     padding: 0;
-    background-color: #3d474f;
+    background-color: #fff;
 }
-header{
-    color: white;
-    padding: 10px;
-    background-color: #3d474f;
+.cabezera{
+    color:white ;
+    background-color: #202529;
     text-align: center;
 }
-nav{
-    
-    display: flex;
-    flex-direction: row;
-    background-color: #202529;
 
-}
-nav a {
-    
-    padding: 14px 19px;
-}
 .row {
     display: flex;
     flex-wrap: wrap;
 }
 aside {
-    color: white;
+    color: black;
     flex: 20px;
-    background-color: #293035;
+    background-color: #fff;
     padding: 10px;
 }
 section {
-    color: white;
+    color: black;
     flex: 70%;
-    background-color: #293035;
+    background-color: #fff;
     padding: 20px;
 }
-footer {
-    color: white;
-    padding: 10px;
-    background-color:  #293035;
-    text-align: center;
-}
-.links{
-    border: solid;
+.piedep{
     background-color: #202529;
+    color: white;
     text-decoration: none;
-}
+    padding: 10px;
+    text-align: center;}
