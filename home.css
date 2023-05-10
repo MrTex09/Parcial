@@ -9,23 +9,8 @@ body{
     margin-bottom: 10px;
 }
 .container-fluid{
-margin: 40px;
+margin: 10px;
 
-}
-
-.contenedor-flex{
-    display: flex;
-    align-items: center;
-    width:20%;
-    height: 300px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-img {
-    height: 400px;
-    margin-bottom: 20px;
 }
 
 footer {
@@ -42,7 +27,6 @@ footer {
 p {
     text-align: center;
     border: #202529 solid 1px;
-    
 }
 @media screen and (min-height:400px) {
     main{
@@ -50,7 +34,7 @@ p {
 
     }
 }
-@media screen and (min-height:800px) {
+@media screen and (min-height:600px) {
     main{
         height: 10vh;
 
