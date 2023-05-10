@@ -16,28 +16,17 @@ margin: 40px;
 .contenedor-flex{
     display: flex;
     align-items: center;
-    width:30%;
-    height: 400px;
+    width:20%;
+    height: 300px;
     margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 10px;
+    
 }
 img {
     height: 400px;
     margin-bottom: 20px;
-}
-.trabajos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightseagreen;
-    border:solid lightseagreen;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    padding: 20px;
 }
 
 footer {
@@ -54,10 +43,11 @@ footer {
 p {
     text-align: center;
     border: #202529 solid 1px;
+    
 }
 @media screen and (min-height:400px) {
     main{
-        height: 70vh;
+        height: 100vh;
 
     }
 }

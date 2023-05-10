@@ -53,3 +53,13 @@ p {
 
     }
 }
+@media screen and (min-height:500px) {
+    main{
+        height: 200vh;
+    }
+}
+@media screen and (min-height:220px) {
+    main{
+        height: 500vh;
+    }
+}

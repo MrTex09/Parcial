@@ -44,14 +44,25 @@
     margin: auto;
 }
 
-@media screen and (min-height:300px) {
+@media screen and (min-height:400px) {
     main{
         height: 10vh;
+
     }
 }
 @media screen and (min-height:800px) {
     main{
         height: 100vh;
 
+    }
+}
+@media screen and (min-height:500px) {
+    main{
+        height: 200vh;
+    }
+}
+@media screen and (min-height:220px) {
+    main{
+        height: 500vh;
     }
 }

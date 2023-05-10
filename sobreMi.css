@@ -37,8 +37,8 @@ section {
 .cabezera{
     color:white ;
     background-color: #202529;
-    text-align: center;
-    }
+    text-align: center;}
+
 @media screen and (min-height:400px) {
         main{
             height: 70vh;
@@ -51,3 +51,14 @@ section {
     
         }
     }
+    @media screen and (min-height:500px) {
+        main{
+            height: 200vh;
+        }
+    }
+    @media screen and (min-height:220px) {
+        main{
+            height: 500vh;
+        }
+    }
+    
