@@ -22,7 +22,6 @@ margin: 40px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
 }
 img {
     height: 400px;
@@ -53,7 +52,7 @@ p {
 }
 @media screen and (min-height:800px) {
     main{
-        height: 80vh;
+        height: 10vh;
 
     }
 }

@@ -63,6 +63,6 @@
 }
 @media screen and (min-height:220px) {
     main{
-        height: 500vh;
+        height: 100vh;
     }
 }

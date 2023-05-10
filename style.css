@@ -43,7 +43,7 @@ p {
 
 @media screen and (min-height:400px) {
     main{
-        height: 70vh;
+        height: 10vh;
 
     }
 }
@@ -60,6 +60,6 @@ p {
 }
 @media screen and (min-height:220px) {
     main{
-        height: 500vh;
+        height: 100vh;
     }
 }
