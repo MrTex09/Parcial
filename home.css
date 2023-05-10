@@ -55,3 +55,15 @@ p {
     text-align: center;
     border: #202529 solid 1px;
 }
+@media screen and (min-height:400px) {
+    main{
+        height: 70vh;
+
+    }
+}
+@media screen and (min-height:800px) {
+    main{
+        height: 80vh;
+
+    }
+}

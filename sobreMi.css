@@ -39,3 +39,15 @@ section {
     background-color: #202529;
     text-align: center;
     }
+@media screen and (min-height:400px) {
+        main{
+            height: 70vh;
+    
+        }
+    }
+    @media screen and (min-height:800px) {
+        main{
+            height: 100vh;
+    
+        }
+    }
