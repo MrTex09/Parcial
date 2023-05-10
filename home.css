@@ -8,27 +8,38 @@ body{
     padding: 10px;
     margin-bottom: 10px;
 }
+.container-fluid{
+margin: 40px;
 
+}
 
 .contenedor-flex{
-    width: 70%;
-    height: 800px;
+    display: flex;
+    align-items: center;
+    width:30%;
+    height: 400px;
     margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-  
+    margin: 10px;
 }
-.caja1{
-padding: 100px;
-font-size: 30px;
-text-align: center;
+img {
+    height: 400px;
+    margin-bottom: 20px;
+}
+.trabajos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    border:solid lightseagreen;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
 
-}
-.caja2{
-    padding: 100px;
-    
-    }
 footer {
     background-color: #202529;
     color: white;
@@ -39,4 +50,8 @@ footer {
     min-height: 90px;
     border-top: 3px solid;
     width: 100%;
+}
+p {
+    text-align: center;
+    border: #202529 solid 1px;
 }

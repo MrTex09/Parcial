@@ -1,4 +1,4 @@
-en este proyecto te encontraras 4 paginas
+En este proyecto te encontraras 4 paginas
 home
 un header que contiene enlaces a las otras tres paginas
 un descripcion breve de mi

@@ -1,14 +1,10 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    padding: 0;
-    background-color: #fff;
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px ;
+    margin: 100px;
 }
-.cabezera{
-    color:white ;
-    background-color: #202529;
-    text-align: center;
-}
+
 
 .row {
     display: flex;
@@ -19,16 +15,27 @@ aside {
     flex: 20px;
     background-color: #fff;
     padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 60px;
 }
 section {
     color: black;
     flex: 70%;
     background-color: #fff;
     padding: 20px;
+    margin-left: 10px;
+    margin-bottom: 60px;
 }
 .piedep{
     background-color: #202529;
     color: white;
     text-decoration: none;
     padding: 10px;
-    text-align: center;}
+    text-align: center;
+    margin: auto;
+}
+.cabezera{
+    color:white ;
+    background-color: #202529;
+    text-align: center;
+    }
