@@ -4,14 +4,6 @@
     text-align: center;
     }
 
-.container{
-    width: 100%;
-    display: flex;
-    max-width: 1100px ;
-    margin: 100px;
-}
-
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -30,13 +22,15 @@ section {
     background-color: #fff;
     padding: 20px;
     margin-left: 10px;
-    margin-bottom: 60px;
+  
 }
 .piedep{
     background-color: #202529;
     color: white;
     padding: 10px;
     text-align: center;
+    margin-top: 15%;
+
 }
 .piedep a{
 text-decoration: none;
