@@ -35,8 +35,9 @@ section {
 .piedep{
     background-color: #202529;
     color: white;
-    text-decoration: none;
     padding: 10px;
     text-align: center;
-    margin: auto;
+}
+.piedep a{
+text-decoration: none;
 }
