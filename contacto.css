@@ -1,16 +1,9 @@
-.container{
-    width: 100%;
-    display: flex;
-    max-width: 1100px ;
-    margin: 100px;
-}
+
 .card{
     margin: 60px;
     border-radius: 6px;
-    overflow: hidden;
     background-color: white;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    cursor: default;
     transition: all 400ms ease;
 }
 .card:hover{
@@ -29,6 +22,12 @@ figure{
 p {
     text-align: center;
     
+}
+.descripcion{
+    margin: 5%;
+    border: solid black 1px ;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 204, 0.486);
 }
 .piedep{
     background-color: #202529;
