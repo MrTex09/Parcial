@@ -4,19 +4,19 @@
     text-align: center;
     }
 
-
 aside {
     color: black;
-    flex: 20px;
+    flex: 20%;
     background-color: #fff;  
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: 60px;
 }
 section {
     color: black;
     flex: 70%;
     background-color: #fff;
-    margin-left: 10px;    
+    margin-left: 20px;    
+    margin-top: 5%;
 }
 .piedep{
     background-color: #202529;
@@ -24,8 +24,28 @@ section {
     padding: 10px;
     text-align: center;
     margin-top: 15%;
-
 }
 .piedep a{
-text-decoration: none;
+text-decoration: none;}
+
+.card{
+    margin: 60px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease;
+}
+.card a{
+    text-decoration: none;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+figure{
+    height: 350PX;
+}
+figure img{
+    height: 200px;
 }
