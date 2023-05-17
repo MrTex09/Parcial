@@ -2,6 +2,7 @@
     color:white ;
     background-color: #202529;
     text-align: center;
+    margin-bottom: 20px
     }
 
 aside {
@@ -23,7 +24,7 @@ section {
     color: white;
     padding: 10px;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 13%;
 }
 .piedep a{
 text-decoration: none;}
